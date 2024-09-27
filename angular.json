@@ -8,7 +8,7 @@
       "schematics": {},
       "root": "",
       "sourceRoot": "src",
-      "prefix": "app",
+      "prefix": "awbw",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -63,7 +63,8 @@
               "browserTarget": "joe-robot-shop:build:production"
             },
             "development": {
-              "browserTarget": "joe-robot-shop:build:development"
+              "browserTarget": "joe-robot-shop:build:development",
+              "proxyConfig": "src/proxy.config.json"
             }
           },
           "defaultConfiguration": "development"
